@@ -1,0 +1,14 @@
+/*
+Theme Name: DS Theme
+Theme URI: http://digitalschool.tech
+Author DS
+Author URi: https://digitalschool.tech
+Description: DS is a theme for learning purposes.
+Vesrion: 1.0
+Text Domain: dstheme
+Tags: cool, blue, mobile redy
+*/
+
+h1{
+    color: blue;
+}
