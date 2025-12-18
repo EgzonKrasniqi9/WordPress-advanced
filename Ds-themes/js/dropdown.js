@@ -16,7 +16,7 @@ let container = document.getElementById("container");
     }
 
     function onLeftButton(){
-        if(current_img_index>0){{
+        if(current_img_index>0){
             let container_width=container.clientWidth;
             current_img_index--;
             for(let i=0; i<img_count; i++){
@@ -27,7 +27,7 @@ let container = document.getElementById("container");
         }
     }
     function onRighttButton(){
-        if(current_img_index<imgs_count-1){{
+        if(current_img_index<imgs_count-1){
             let container_width=container.clientWidth;
             current_img_index++;
             for(let i=0; i<img_count; i++){
@@ -52,7 +52,7 @@ let container = document.getElementById("container");
                 element.style.left=new_left_pos+"px";
             }
         }
-    }         else if(current_img_index<imgs_count-1){{
+    }         else if(current_img_index<imgs_count-1){
             let container_width=container.clientWidth;
             current_img_index++;
             for(let i=0; i<img_count; i++){
